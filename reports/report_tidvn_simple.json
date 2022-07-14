@@ -1,0 +1,696 @@
+{
+  "social.msdn.microsoft.com": {
+    "site": {
+      "tags": [
+        "us"
+      ],
+      "engine": "engine404",
+      "urlMain": "https://social.msdn.microsoft.com",
+      "url": "https://social.msdn.microsoft.com/profile/{username}",
+      "usernameUnclaimed": "noonewouldeverusethis7",
+      "usernameClaimed": "alex",
+      "alexaRank": 19,
+      "checkType": "status_code"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://social.msdn.microsoft.com",
+    "cookies": null,
+    "url_user": "https://social.msdn.microsoft.com/profile/tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "social.msdn.microsoft.com",
+      "url": "https://social.msdn.microsoft.com/profile/tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "us"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 19
+  },
+  "Twitch": {
+    "site": {
+      "tags": [
+        "streaming"
+      ],
+      "urlProbe": "https://m.twitch.tv/{username}",
+      "checkType": "status_code",
+      "alexaRank": 34,
+      "urlMain": "https://www.twitch.tv/",
+      "url": "https://www.twitch.tv/{username}",
+      "usernameClaimed": "jenny",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.twitch.tv/",
+    "cookies": null,
+    "url_user": "https://www.twitch.tv/tidvn",
+    "ids_usernames": {
+      "tidvn": "username"
+    },
+    "ids_links": [],
+    "status": {
+      "username": "tidvn",
+      "site_name": "Twitch",
+      "url": "https://www.twitch.tv/tidvn",
+      "status": "Claimed",
+      "ids": {
+        "id": "724456316",
+        "username": "tidvn",
+        "bio": "I play Genshin Impact.",
+        "fullname": "TiDVN",
+        "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/21f53c64-db99-4bba-a2a2-0192b0a0077b-profile_image-150x150.png",
+        "likes_count": "576",
+        "image_bg": "https://static-cdn.jtvnw.net/jtv_user_pictures/a759ec07-fdae-485f-9889-c1718d7dc426-profile_banner-480.png"
+      },
+      "tags": [
+        "streaming"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 34
+  },
+  "GitHubGist": {
+    "site": {
+      "tags": [
+        "coding",
+        "sharing"
+      ],
+      "engine": "engineRedirect",
+      "urlMain": "https://gist.github.com",
+      "url": "https://gist.github.com/{username}",
+      "source": "GitHub",
+      "usernameUnclaimed": "noonewouldeverusethis7",
+      "usernameClaimed": "alex",
+      "alexaRank": 26,
+      "checkType": "response_url"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://gist.github.com",
+    "cookies": null,
+    "url_user": "https://gist.github.com/tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "GitHubGist [GitHub]",
+      "url": "https://gist.github.com/tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "coding",
+        "sharing"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 26
+  },
+  "GitHub": {
+    "site": {
+      "tags": [
+        "coding"
+      ],
+      "regexCheck": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
+      "urlProbe": "https://api.github.com/users/{username}",
+      "checkType": "status_code",
+      "alexaRank": 83,
+      "urlMain": "https://www.github.com/",
+      "url": "https://github.com/{username}",
+      "usernameClaimed": "blue",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.github.com/",
+    "cookies": null,
+    "url_user": "https://github.com/tidvn",
+    "ids_usernames": {},
+    "ids_links": [],
+    "status": {
+      "username": "tidvn",
+      "site_name": "GitHub",
+      "url": "https://github.com/tidvn",
+      "status": "Claimed",
+      "ids": {
+        "uid": "74198018",
+        "image": "https://avatars.githubusercontent.com/u/74198018?v=4",
+        "created_at": "2020-11-09T15:24:29Z",
+        "location": "Hanoi, Vietnam",
+        "follower_count": "0",
+        "following_count": "17",
+        "fullname": "Phùng Tiến Dũng",
+        "public_gists_count": "1",
+        "public_repos_count": "28",
+        "blog_url": "https://tidvn.tech"
+      },
+      "tags": [
+        "coding"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 83
+  },
+  "Reddit": {
+    "site": {
+      "tags": [
+        "discussion",
+        "news"
+      ],
+      "checkType": "message",
+      "absenceStrs": [
+        "Sorry, nobody on Reddit goes by that name."
+      ],
+      "presenseStrs": [
+        "Karma</h5>"
+      ],
+      "alexaRank": 19,
+      "urlMain": "https://www.reddit.com/",
+      "url": "https://www.reddit.com/user/{username}",
+      "usernameClaimed": "blue",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.reddit.com/",
+    "cookies": null,
+    "url_user": "https://www.reddit.com/user/tidvn",
+    "ids_usernames": {
+      "tidvn": "username"
+    },
+    "ids_links": [],
+    "status": {
+      "username": "tidvn",
+      "site_name": "Reddit",
+      "url": "https://www.reddit.com/user/tidvn",
+      "status": "Claimed",
+      "ids": {
+        "reddit_id": "t5_3pe9yd",
+        "reddit_username": "tidvn",
+        "fullname": "tidvn",
+        "image": "https://www.redditstatic.com/avatars/defaults/v2/avatar_default_3.png",
+        "is_employee": "False",
+        "is_nsfw": "False",
+        "is_mod": "False",
+        "is_following": "True",
+        "has_user_profile": "True",
+        "hide_from_robots": "False",
+        "created_at": "2021-01-10 23:05:49 UTC",
+        "total_karma": "1",
+        "post_karma": "1",
+        "comments_karma": "0",
+        "awards_given_karma": "0",
+        "awards_got_karma": "0"
+      },
+      "tags": [
+        "discussion",
+        "news"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 19
+  },
+  "YandexCollections API": {
+    "site": {
+      "tags": [
+        "ru",
+        "sharing"
+      ],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+      },
+      "errors": {
+        "action=\"/checkcaptcha\" onsubmit": "Captcha detected, use proxy/vpn"
+      },
+      "checkType": "message",
+      "presenseStrs": [
+        "public_id"
+      ],
+      "absenceStrs": [
+        "cl-not-found-content__title"
+      ],
+      "alexaRank": 34,
+      "urlMain": "https://yandex.ru/collections/",
+      "url": "https://yandex.ru/collections/api/users/{username}/",
+      "source": "Yandex",
+      "usernameClaimed": "yandex",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://yandex.ru/collections/",
+    "cookies": null,
+    "url_user": "https://yandex.ru/collections/api/users/tidvn/",
+    "ids_usernames": {
+      "uyekh33g8609x6z6mepf5q4t0r": "yandex_public_id"
+    },
+    "ids_links": [],
+    "status": {
+      "username": "tidvn",
+      "site_name": "YandexCollections API [Yandex]",
+      "url": "https://yandex.ru/collections/api/users/tidvn/",
+      "status": "Claimed",
+      "ids": {
+        "yandex_public_id": "uyekh33g8609x6z6mepf5q4t0r",
+        "fullname": "Rolfe C.",
+        "image": "https://avatars.mds.yandex.net/get-yapic/0/0-0/islands-200",
+        "gender": "m",
+        "cards": "0",
+        "boards": "0",
+        "is_passport": "True",
+        "is_restricted": "False",
+        "is_forbid": "False",
+        "is_km": "False",
+        "is_business": "False"
+      },
+      "tags": [
+        "ru",
+        "sharing"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 34
+  },
+  "Nitter": {
+    "site": {
+      "tags": [
+        "messaging"
+      ],
+      "regexCheck": "^[a-zA-Z0-9_]{1,15}$",
+      "checkType": "message",
+      "absenceStrs": [
+        "<title>Error | nitter</title>",
+        "The requested URL was not found on this server.",
+        "<div class=\"error-panel\">"
+      ],
+      "presenseStrs": [
+        "<div class=\"profile-tabs\">"
+      ],
+      "source": "Twitter",
+      "alexaRank": 48,
+      "urlMain": "https://www.nitter.net/",
+      "url": "https://nitter.net/{username}",
+      "usernameClaimed": "blue",
+      "usernameUnclaimed": "noonewould123"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.nitter.net/",
+    "cookies": null,
+    "url_user": "https://nitter.net/tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "Nitter [Twitter]",
+      "url": "https://nitter.net/tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "messaging"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 48
+  },
+  "Pinterest": {
+    "site": {
+      "tags": [
+        "art",
+        "photo",
+        "sharing"
+      ],
+      "checkType": "status_code",
+      "alexaRank": 152,
+      "urlMain": "https://www.pinterest.com/",
+      "url": "https://www.pinterest.com/{username}/",
+      "usernameClaimed": "blue",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.pinterest.com/",
+    "cookies": null,
+    "url_user": "https://www.pinterest.com/tidvn/",
+    "status": {
+      "username": "tidvn",
+      "site_name": "Pinterest",
+      "url": "https://www.pinterest.com/tidvn/",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "art",
+        "photo",
+        "sharing"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 152
+  },
+  "Roblox": {
+    "site": {
+      "tags": [
+        "gaming",
+        "us"
+      ],
+      "checkType": "message",
+      "absenceStrs": [
+        "Page cannot be found or no longer exists"
+      ],
+      "alexaRank": 115,
+      "urlMain": "https://www.roblox.com/",
+      "url": "https://www.roblox.com/user.aspx?username={username}",
+      "usernameClaimed": "bluewolfekiller",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.roblox.com/",
+    "cookies": null,
+    "url_user": "https://www.roblox.com/user.aspx?username=tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "Roblox",
+      "url": "https://www.roblox.com/user.aspx?username=tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "gaming",
+        "us"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 115
+  },
+  "MicrosoftTechNet": {
+    "site": {
+      "tags": [
+        "us"
+      ],
+      "checkType": "status_code",
+      "alexaRank": 21,
+      "urlMain": "https://social.technet.microsoft.com",
+      "url": "https://social.technet.microsoft.com/profile/{username}/",
+      "usernameClaimed": "blue",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://social.technet.microsoft.com",
+    "cookies": null,
+    "url_user": "https://social.technet.microsoft.com/profile/tidvn/",
+    "status": {
+      "username": "tidvn",
+      "site_name": "MicrosoftTechNet",
+      "url": "https://social.technet.microsoft.com/profile/tidvn/",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "us"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 21
+  },
+  "oce.op.gg": {
+    "site": {
+      "tags": [
+        "au",
+        "gaming",
+        "us"
+      ],
+      "engine": "op.gg",
+      "urlMain": "https://oce.op.gg/",
+      "url": "https://oce.op.gg/summoner/userName={username}",
+      "usernameClaimed": "adam",
+      "usernameUnclaimed": "noonewouldeverusethis7",
+      "alexaRank": 331,
+      "checkType": "message",
+      "presenseStrs": [
+        "<div class=\"profile-icon\">"
+      ],
+      "absenceStrs": [
+        "<h2 class=\"header__title\">This summoner is not registered"
+      ]
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://oce.op.gg/",
+    "cookies": null,
+    "url_user": "https://oce.op.gg/summoner/userName=tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "oce.op.gg",
+      "url": "https://oce.op.gg/summoner/userName=tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "au",
+        "gaming",
+        "us"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 331
+  },
+  "Freelancer.com": {
+    "site": {
+      "tags": [
+        "freelance",
+        "us"
+      ],
+      "checkType": "message",
+      "absenceStrs": [
+        "\"users\":{}"
+      ],
+      "alexaRank": 661,
+      "urlMain": "https://www.freelancer.com/",
+      "url": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D={username}&compact=true",
+      "usernameClaimed": "adam",
+      "usernameUnclaimed": "noonewouldeverusethis"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.freelancer.com/",
+    "cookies": null,
+    "url_user": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D=tidvn&compact=true",
+    "ids_usernames": {
+      "tidvn": "username"
+    },
+    "ids_links": [],
+    "status": {
+      "username": "tidvn",
+      "site_name": "Freelancer.com",
+      "url": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D=tidvn&compact=true",
+      "status": "Claimed",
+      "ids": {
+        "id": "50833916",
+        "nickname": "tidvn",
+        "username": "tidvn",
+        "fullname": "Phung Tien D.",
+        "company": "tidpr",
+        "role": "freelancer",
+        "location": "ha Noi, Vietnam",
+        "created_at": "2020-10-31 15:46:21 UTC"
+      },
+      "tags": [
+        "freelance",
+        "us"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 661
+  },
+  "Waveapps": {
+    "site": {
+      "tags": [
+        "ca",
+        "us"
+      ],
+      "checkType": "status_code",
+      "alexaRank": 2044,
+      "urlMain": "https://community.waveapps.com",
+      "url": "https://community.waveapps.com/profile/{username}",
+      "usernameClaimed": "adam",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://community.waveapps.com",
+    "cookies": null,
+    "url_user": "https://community.waveapps.com/profile/tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "Waveapps",
+      "url": "https://community.waveapps.com/profile/tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "ca",
+        "us"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 2044
+  },
+  "Docker Hub": {
+    "site": {
+      "tags": [
+        "coding"
+      ],
+      "urlProbe": "https://hub.docker.com/v2/users/{username}/",
+      "checkType": "status_code",
+      "alexaRank": 2797,
+      "urlMain": "https://hub.docker.com/",
+      "url": "https://hub.docker.com/u/{username}/",
+      "usernameClaimed": "blue",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://hub.docker.com/",
+    "cookies": null,
+    "url_user": "https://hub.docker.com/u/tidvn/",
+    "status": {
+      "username": "tidvn",
+      "site_name": "Docker Hub",
+      "url": "https://hub.docker.com/u/tidvn/",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "coding"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 2797
+  },
+  "hashnode": {
+    "site": {
+      "tags": [
+        "in"
+      ],
+      "checkType": "message",
+      "presenseStrs": [
+        "email",
+        "profile-tags",
+        "name",
+        "og:site_name",
+        " name="
+      ],
+      "absenceStrs": [
+        "We can’t find the page you’re looking for!"
+      ],
+      "urlMain": "https://hashnode.com",
+      "url": "https://hashnode.com/@{username}",
+      "usernameClaimed": "melwinalm",
+      "usernameUnclaimed": "noonewouldeverusethis7",
+      "alexaRank": 15106
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://hashnode.com",
+    "cookies": null,
+    "url_user": "https://hashnode.com/@tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "hashnode",
+      "url": "https://hashnode.com/@tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "in"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 15106
+  },
+  "giters.com": {
+    "site": {
+      "absenceStrs": [
+        "This page could not be found"
+      ],
+      "presenseStrs": [
+        "nofollow"
+      ],
+      "url": "https://giters.com/{username}",
+      "urlMain": "https://giters.com",
+      "usernameClaimed": "soxoj",
+      "source": "GitHub",
+      "usernameUnclaimed": "noonewouldeverusethis7",
+      "checkType": "message",
+      "alexaRank": 16094,
+      "tags": [
+        "coding"
+      ]
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://giters.com",
+    "cookies": null,
+    "url_user": "https://giters.com/tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "giters.com [GitHub]",
+      "url": "https://giters.com/tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "coding"
+      ]
+    },
+    "http_status": 200,
+    "is_similar": false,
+    "rank": 16094
+  },
+  "Influenster": {
+    "site": {
+      "tags": [
+        "us"
+      ],
+      "errors": {
+        "<title>Attention Required! | Cloudflare</title>": "Cloudflare security protection detected"
+      },
+      "checkType": "message",
+      "absenceStrs": [
+        "404 - Page not found"
+      ],
+      "alexaRank": 15753,
+      "urlMain": "https://www.influenster.com/",
+      "url": "https://www.influenster.com/{username}",
+      "usernameClaimed": "adam",
+      "usernameUnclaimed": "noonewouldeverusethis7"
+    },
+    "username": "tidvn",
+    "parsing_enabled": true,
+    "url_main": "https://www.influenster.com/",
+    "cookies": null,
+    "url_user": "https://www.influenster.com/tidvn",
+    "status": {
+      "username": "tidvn",
+      "site_name": "Influenster",
+      "url": "https://www.influenster.com/tidvn",
+      "status": "Claimed",
+      "ids": {},
+      "tags": [
+        "us"
+      ]
+    },
+    "http_status": 404,
+    "is_similar": false,
+    "rank": 15753
+  }
+}
